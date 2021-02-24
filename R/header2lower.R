@@ -9,4 +9,5 @@
 
 h2l <- function(x) {
   names(x) <- tolower(names(x))
+  return(x)
 }
